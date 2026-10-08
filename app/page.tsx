@@ -1,9 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { useHandTracking } from "@/hooks/useHandTracking";
-import { api, type Detection, type Report, type Session, type User } from "@/lib/api";
-import { enqueueOffline, flushOffline } from "@/lib/offline";
+import { useHandTracking } from "../hooks/useHandTracking";
+import { api, type Detection, type Report, type Session, type User } from "../lib/api";
+import { enqueueOffline, flushOffline } from "../lib/offline";
 
 type Screen = "welcome" | "live" | "dashboard" | "history" | "reports" | "learn" | "admin" | "settings";
 type CatalogItem = { id: number; label: string; sampleCount: number };
