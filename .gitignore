@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.py[cod]
+__pycache__/
+.venv/
+ml/models/*.joblib
+ml/data/*.csv
+npm-debug.log*
